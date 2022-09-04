@@ -1,0 +1,16 @@
+
+Test.java:101: error: incompatible types: possible lossy conversion from int to short
+                                sArray[n5 - 1][n5 - 1][n5 - 1] = n4;
+                                                                 ^
+Test.java:111: error: cannot find symbol
+                catch (UserDefinedExceptionTest userDefinedExceptionTest) {
+                       ^
+  symbol:   class UserDefinedExceptionTest
+  location: class Test
+Note: FuzzerUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+2 errors
+
+Note: FuzzerUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+

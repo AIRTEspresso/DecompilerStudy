@@ -1,0 +1,6 @@
+Test.java:7: error: bad operand types for binary operator '&'
+        this.instanceCount &= 50.231f;
+                           ^
+  first type:  long
+  second type: float
+1 error

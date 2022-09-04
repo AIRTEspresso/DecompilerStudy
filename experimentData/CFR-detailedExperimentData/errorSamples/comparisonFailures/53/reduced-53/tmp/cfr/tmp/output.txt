@@ -1,0 +1,9 @@
+l i i11 = 272,0,93
+i12 f1 i13 = 92,1227413612,7
+i14 i15 i16 = 7,44204,0
+byArr1 = -3214
+Test.instanceCount Test.sFld Test.byFld = -6125567905303634673,271,-108
+Test.bFld Test.iArrFld Test.lArrFld = 0,-10023,3336850141137879124
+iMeth1_check_sum: 6380045248527615818
+vMeth_check_sum: 65566781851056
+iMeth_check_sum: 7355649712925705306

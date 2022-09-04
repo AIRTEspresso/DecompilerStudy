@@ -1,0 +1,125 @@
+[04:35:17] [INFO   ] Tree Building: Start building spar-tree from input file SourceFile{file=/root/DecompilerTester/testhome/eposide-1/262/reduced-262/Test.java, lang=LanguageJava{name=java, extensions=[java], defaultCodeFormatControl=SINGLE_TOKEN_PER_LINE}} 
+[04:35:17] [INFO   ] Tree Building: Step 1: Antlr parsing. 
+[04:35:23] [INFO   ] Tree Building: Step 2: Converting parse tree to spar-tree 
+[04:35:23] [INFO   ] Tree Building: Step 3: Simplifying spar-tree 
+[04:35:23] [INFO   ] Tree Building: Finished in TimeSpan{startMillis=1649298917895, endMillis=1649298923378, formatted=5 seconds} 
+[04:35:23] [WARNING] The scriptExecutionMonitorIntervalMillis is 15000 
+[04:35:23] [INFO   ] The reduction process started at 04:35:23 2022/04/07 
+[04:35:23] [INFO   ] Cache setting: query-caching=enabled, edit-caching=enabled, query-cache=compact_query_cache 
+Exception in thread "main" java.lang.IllegalStateException: The initial sanity check failed. 
+
+***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+*
+* The script exit code is 1 
+* The files have been saved, and you can check them at:
+*     /tmp/perses_failure_5926694732957861190
+*
+***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+
+============= stderr =============
+Note: Test.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+rm: cannot remove '*.class': No such file or directory
+rm: cannot remove 'output.txt': No such file or directory
+Note: Test.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+
+============= stdout =============
+INFO:  Decompiling class Test
+INFO:  ... done
+Archive:  Test.jar
+inflating: META-INF/MANIFEST.MF    
+inflating: Test.java               
+failure
+
+
+	at org.perses.reduction.AbstractReductionDriver.sanityCheck(AbstractReductionDriver.kt:92)
+	at org.perses.reduction.AbstractProgramReductionDriver.reduce(AbstractProgramReductionDriver.kt:159)
+	at org.perses.AbstractMain.internalRun(AbstractMain.kt:33)
+	at org.perses.util.cmd.AbstractMain.run(AbstractMain.kt:53)
+	at org.perses.Main.main(Main.java:89)
+
+[23:28:11] [INFO   ] Tree Building: Start building spar-tree from input file SourceFile{file=/root/DecompilerTester/testhome/eposide-1/262/reduced-262/Test.java, lang=LanguageJava{name=java, extensions=[java], defaultCodeFormatControl=SINGLE_TOKEN_PER_LINE}} 
+[23:28:11] [INFO   ] Tree Building: Step 1: Antlr parsing. 
+[23:28:17] [INFO   ] Tree Building: Step 2: Converting parse tree to spar-tree 
+[23:28:17] [INFO   ] Tree Building: Step 3: Simplifying spar-tree 
+[23:28:17] [INFO   ] Tree Building: Finished in TimeSpan{startMillis=1649366891145, endMillis=1649366897395, formatted=6 seconds} 
+[23:28:17] [WARNING] The scriptExecutionMonitorIntervalMillis is 15000 
+[23:28:17] [INFO   ] The reduction process started at 23:28:17 2022/04/07 
+[23:28:17] [INFO   ] Cache setting: query-caching=enabled, edit-caching=enabled, query-cache=compact_query_cache 
+Exception in thread "main" java.lang.IllegalStateException: The initial sanity check failed. 
+
+***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+*
+* The script exit code is 1 
+* The files have been saved, and you can check them at:
+*     /tmp/perses_failure_11999589691204400031
+*
+***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+
+============= stderr =============
+Note: Test.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+rm: cannot remove '*.class': No such file or directory
+rm: cannot remove 'output.txt': No such file or directory
+Note: Test.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+
+============= stdout =============
+INFO:  Decompiling class Test
+INFO:  ... done
+Archive:  Test.jar
+inflating: META-INF/MANIFEST.MF    
+inflating: Test.java               
+failure
+
+
+	at org.perses.reduction.AbstractReductionDriver.sanityCheck(AbstractReductionDriver.kt:92)
+	at org.perses.reduction.AbstractProgramReductionDriver.reduce(AbstractProgramReductionDriver.kt:159)
+	at org.perses.AbstractMain.internalRun(AbstractMain.kt:33)
+	at org.perses.util.cmd.AbstractMain.run(AbstractMain.kt:53)
+	at org.perses.Main.main(Main.java:89)
+
+[00:34:18] [INFO   ] Tree Building: Start building spar-tree from input file SourceFile{file=/root/DecompilerTester/testhome/eposide-1/262/reduced-262/Test.java, lang=LanguageJava{name=java, extensions=[java], defaultCodeFormatControl=SINGLE_TOKEN_PER_LINE}} 
+[00:34:18] [INFO   ] Tree Building: Step 1: Antlr parsing. 
+[00:34:24] [INFO   ] Tree Building: Step 2: Converting parse tree to spar-tree 
+[00:34:24] [INFO   ] Tree Building: Step 3: Simplifying spar-tree 
+[00:34:24] [INFO   ] Tree Building: Finished in TimeSpan{startMillis=1649370858685, endMillis=1649370864730, formatted=6 seconds} 
+[00:34:24] [INFO   ] The reduction process started at 00:34:24 2022/04/08 
+[00:34:24] [INFO   ] Cache setting: query-caching=enabled, edit-caching=enabled, query-cache=compact_query_cache 
+Exception in thread "main" java.lang.IllegalStateException: The initial sanity check failed. 
+
+***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+*
+* The script exit code is 1 
+* The files have been saved, and you can check them at:
+*     /tmp/perses_failure_16851412035203973480
+*
+***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+
+============= stderr =============
+Note: Test.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+rm: cannot remove '*.class': No such file or directory
+rm: cannot remove 'output.txt': No such file or directory
+Note: Test.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+
+============= stdout =============
+INFO:  Decompiling class Test
+INFO:  ... done
+Archive:  Test.jar
+inflating: META-INF/MANIFEST.MF    
+inflating: Test.java               
+failure
+
+
+	at org.perses.reduction.AbstractReductionDriver.sanityCheck(AbstractReductionDriver.kt:70)
+	at org.perses.reduction.AbstractProgramReductionDriver.reduce(AbstractProgramReductionDriver.kt:159)
+	at org.perses.AbstractMain.internalRun(AbstractMain.kt:33)
+	at org.perses.util.cmd.AbstractMain.run(AbstractMain.kt:53)
+	at org.perses.Main.main(Main.java:89)
+

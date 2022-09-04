@@ -1,0 +1,17 @@
+
+Test.java:112: error: variable i3 might not have been initialized
+        vMeth_check_sum += (((((((i8 + Float.floatToIntBits(f2)) + i3) + Double.doubleToLongBits(d)) + i4) + i6) + i5) - 12) + i9 + 58 + i7 + 62877 + 0 + s + FuzzerUtils.checkSum(jArr) + FuzzerUtils.checkSum((Object[][]) bArr);
+                                                                   ^
+Test.java:222: error: variable i might not have been initialized
+                                i8 = i;
+                                     ^
+Test.java:226: error: variable i4 might not have been initialized
+                            i11 = i4;
+                                  ^
+Note: FuzzerUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+3 errors
+
+Note: FuzzerUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+

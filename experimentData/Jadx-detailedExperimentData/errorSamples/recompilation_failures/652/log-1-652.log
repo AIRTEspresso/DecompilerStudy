@@ -1,0 +1,10 @@
+
+Test.java:70: error: bad operand types for binary operator '<<'
+        vMeth(Math.min(j, ((-5) - (-1.472f)) << iMeth(-45840)), -5, 0L);
+                                             ^
+  first type:  float
+  second type: int
+Note: FuzzerUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 error
+

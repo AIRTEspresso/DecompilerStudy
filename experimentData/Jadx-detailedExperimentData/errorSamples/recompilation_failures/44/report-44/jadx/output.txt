@@ -1,0 +1,4 @@
+Test.java:9: error: integer number too large
+        this.instanceCount = 6202473916003642764 >>> this.iFld;
+                             ^
+1 error

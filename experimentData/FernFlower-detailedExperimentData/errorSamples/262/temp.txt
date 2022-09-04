@@ -1,0 +1,16 @@
+public class Test {
+    public void mainTest() {
+        int i14 = 0, i15 = 0, i16 = -42285;
+        i14 = -6;
+        for (i15 = 16; i15 < 354; i15++) {
+            try {
+                i16 = (i14 / i16);
+                i16 = (i14 / i14);
+                i14 = (i15 % i15);
+            } catch (ArithmeticException a_e) {
+            }
+
+        }
+        System.out.println("i16=" + i16);
+    }
+}

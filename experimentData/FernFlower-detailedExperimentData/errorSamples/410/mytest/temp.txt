@@ -1,0 +1,69 @@
+Today I found another issue similar with the above one, only the difference is that it failed with an incompatible type error not from 'long to int' but 'float to int'. I don't know whether they refer to the same problem. Here it is:
+
+What steps will reproduce the issue?
+
+For the example below:
+
+class Test {
+
+ 	int N = 400;
+
+ 	float fFld=0.731F;
+
+ 	long lMeth(long l) {
+
+ 		int i2, i3 = 214, iArr[] = new int[N];
+
+ 		iArr[1] = 0;
+
+ 		i3 -= fFld-- * iArr[1]--;
+
+ 		long meth_res = l;
+
+ 		return meth_res;
+
+ 	}
+
+ }
+
+What happens instead?
+
+For jar files built with this piece of source code, Fernflower will generate the decompiled code like this:
+
+class Test {
+
+   int N = 400;
+
+   float fFld = 0.731F;
+
+   long lMeth(long var1) {
+
+      short var4 = 214;
+
+      int[] var5 = new int[this.N];
+
+      var5[1] = 0;
+
+      float var10000 = (float)var4;
+
+      int var10003 = this.fFld--;
+
+      int var10005 = var5[1];
+
+      int var10002 = var5[1];
+
+      var5[1] = var10005 - 1;
+
+      int var8 = (int)(var10000 - var10003 * (float)var10002);
+
+      return var1;
+
+   }
+
+}
+
+ 
+
+Here Fernflower generated invalid code at 'int var10003 = this.fFld--' and the generated code failed in compilation with similar reasons: 'error: incompatible types: possible lossy conversion from float to int'. 
+
+I also attach the source files and decompilation results for reference, I hope they will be helpful.

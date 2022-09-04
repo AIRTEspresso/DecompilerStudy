@@ -1,0 +1,30 @@
+[04:53:04] [INFO   ] Tree Building: Start building spar-tree from input file SourceFile{file=/root/DecompilerTester/testhome/eposide-1/164/reduced-164/Test.java, lang=LanguageJava{name=java, extensions=[java], defaultCodeFormatControl=SINGLE_TOKEN_PER_LINE}} 
+[04:53:04] [INFO   ] Tree Building: Step 1: Antlr parsing. 
+[04:53:09] [INFO   ] Tree Building: Step 2: Converting parse tree to spar-tree 
+[04:53:09] [INFO   ] Tree Building: Step 3: Simplifying spar-tree 
+[04:53:09] [INFO   ] Tree Building: Finished in TimeSpan{startMillis=1660013584672, endMillis=1660013589763, formatted=5 seconds} 
+[04:53:09] [INFO   ] The reduction process started at 04:53:09 2022/08/09 
+[04:53:09] [INFO   ] Cache setting: query-caching=enabled, edit-caching=enabled, query-cache=compact_query_cache 
+[04:53:12] [INFO   ] Reduction algorithm is perses_node_priority_with_dfs_delta 
+[04:53:12] [INFO   ] The number of lexemes in the token factory is is 286 
+[04:53:12] [INFO   ] Reduction Started at 04:53:12 2022/08/09 
+[04:53:12] [INFO   ] perses_node_priority_with_dfs_delta started at 04:53:12 2022/08/09. #tokens=4649 
+[04:53:12] [INFO   ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: New fixpoint iteration started. #Tokens=4649 
+[04:53:12] [INFO   ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=4624) 
+[04:53:14] [INFO   ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: New minimal, delete 4624 tokens, ratio=25/4649=0.54% 
+[04:53:14] [INFO   ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=4624): queue=1, delete 4624 tokens, ratio=25/4649=0.54% 
+[04:53:14] [INFO   ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=25) 
+[04:53:15] [INFO   ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: New minimal, delete 25 tokens, ratio=0/4649=0.00% 
+[04:53:15] [INFO   ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Delta node (#leaves=25): queue=0, delete 25 tokens, ratio=0/4649=0.00% 
+[04:53:15] [INFO   ] perses_node_priority_with_dfs_delta ended at 04:53:15 2022/08/09. #old=4649, #new=0 
+[04:53:15] [INFO   ] Fixpoint[1]:Reducer[perses_node_priority_with_dfs_delta]: Fixpoint iteration finished, delete 4649 tokens, ratio=0/4649=0.00% 
+[04:53:15] [INFO   ] Rebuilding spar-tree. 
+[04:53:15] [INFO   ] perses_node_priority_with_dfs_delta started at 04:53:15 2022/08/09. #tokens=0 
+[04:53:15] [INFO   ] Fixpoint[2]:Reducer[perses_node_priority_with_dfs_delta]: New fixpoint iteration started. #Tokens=0 
+[04:53:15] [INFO   ] perses_node_priority_with_dfs_delta ended at 04:53:15 2022/08/09. #old=0, #new=0 
+[04:53:15] [INFO   ] Fixpoint[2]:Reducer[perses_node_priority_with_dfs_delta]: Fixpoint iteration finished, delete 0 tokens, ratio=0/4649=0.00% 
+[04:53:15] [INFO   ] Reduction ended at 04:53:15 2022/08/09 
+[04:53:15] [INFO   ] Elapsed time is 2 seconds 
+[04:53:15] [INFO   ] Removed %s tokens. reduction ratio is 0/4649=0.00% 
+[04:53:15] [INFO   ] Test script execution count: 3 
+

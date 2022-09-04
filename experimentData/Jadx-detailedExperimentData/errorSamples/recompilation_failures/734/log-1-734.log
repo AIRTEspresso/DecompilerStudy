@@ -1,0 +1,10 @@
+
+Test.java:122: error: bad operand types for binary operator '>>>'
+        instanceCount = j - (((j2 + j) / (1 | j3)) - ((-28.853f) >>> ((int) (j3 + j2))));
+                                                                 ^
+  first type:  float
+  second type: int
+Note: FuzzerUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 error
+

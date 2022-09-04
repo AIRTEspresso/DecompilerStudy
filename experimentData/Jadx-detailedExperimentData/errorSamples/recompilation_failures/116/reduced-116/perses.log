@@ -1,0 +1,51 @@
+[20:32:32] [INFO   ] Tree Building: Start building spar-tree from input file SourceFile{file=/root/DecompilerTester/testhome-save-jadx-2022.8.9/todo_8_9/eposide-1/116/reduced-116/Test.java, lang=LanguageJava{name=java, extensions=[java], defaultCodeFormatControl=SINGLE_TOKEN_PER_LINE}} 
+[20:32:32] [INFO   ] Tree Building: Step 1: Antlr parsing. 
+[20:32:37] [INFO   ] Tree Building: Step 2: Converting parse tree to spar-tree 
+[20:32:37] [INFO   ] Tree Building: Step 3: Simplifying spar-tree 
+[20:32:37] [INFO   ] Tree Building: Finished in TimeSpan{startMillis=1660069952511, endMillis=1660069957875, formatted=5 seconds} 
+[20:32:37] [INFO   ] The reduction process started at 20:32:37 2022/08/09 
+[20:32:37] [INFO   ] Cache setting: query-caching=enabled, edit-caching=enabled, query-cache=compact_query_cache 
+Exception in thread "main" java.lang.IllegalStateException: The initial sanity check failed. 
+
+***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+*
+* The script exit code is 1 
+* The files have been saved, and you can check them at:
+*     /tmp/perses_failure_11954176504532807189
+*
+***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+
+============= stderr =============
+rm: cannot remove 'output.txt': No such file or directory
+Warning in Test.jar:Test.class:
+Type `java.lang.Double` was not found, it is required for default or static interface methods desugaring of `void Test.vSmallMeth(int, int, int)`
+Warning in Test.jar:Test.class:
+Type `java.lang.Float` was not found, it is required for default or static interface methods desugaring of `void Test.vMeth1(double, float, int)`
+Warning in Test.jar:Test.class:
+Type `java.lang.reflect.Array` was not found, it is required for default or static interface methods desugaring of `short Test.sMeth(long, long, int)`
+Warning in Test.jar:Test.class:
+Type `java.lang.Integer` was not found, it is required for default or static interface methods desugaring of `short Test.sMeth(long, long, int)`
+Warning in Test.jar:Test.class:
+Type `java.lang.Math` was not found, it is required for default or static interface methods desugaring of `long Test.checkSum(java.lang.Object[])`
+Warning in Test.jar:Test.class:
+Type `java.lang.Thread` was not found, it is required for default or static interface methods desugaring of `void Test.joinThreads()`
+Warning in Test.jar:Test$1.class:
+Type `java.lang.Runnable` was not found, it is required for default or static interface methods desugaring of `Test$1`
+rm: cannot remove '*.class': No such file or directory
+rm: cannot remove 'output.txt': No such file or directory
+
+
+============= stdout =============
+INFO  - loading ...
+INFO  - processing ...
+INFO  - progress: 0 of 0 (0%)
+
+INFO  - done
+failure
+
+
+	at org.perses.reduction.AbstractReductionDriver.sanityCheck(AbstractReductionDriver.kt:70)
+	at org.perses.reduction.AbstractProgramReductionDriver.reduce(AbstractProgramReductionDriver.kt:159)
+	at org.perses.AbstractMain.internalRun(AbstractMain.kt:33)
+	at org.perses.util.cmd.AbstractMain.run(AbstractMain.kt:53)
+	at org.perses.Main.main(Main.java:89)

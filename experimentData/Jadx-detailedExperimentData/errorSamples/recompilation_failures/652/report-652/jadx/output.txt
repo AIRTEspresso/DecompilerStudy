@@ -1,0 +1,6 @@
+Test.java:13: error: bad operand types for binary operator '<<'
+        vMeth(Math.min(this.instanceCount, (5 - 1.472f) << 45840), 5, 0L);
+                                                        ^
+  first type:  float
+  second type: int
+1 error

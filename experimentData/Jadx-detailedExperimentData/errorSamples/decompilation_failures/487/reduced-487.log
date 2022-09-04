@@ -1,0 +1,66 @@
+[19:02:33] [INFO   ] Tree Building: Start building spar-tree from input file SourceFile{file=/root/DecompilerTester/testhome/eposide-1/487/reduced-487/Test.java, lang=LanguageJava{name=java, extensions=[java], defaultCodeFormatControl=SINGLE_TOKEN_PER_LINE}} 
+[19:02:33] [INFO   ] Tree Building: Step 1: Antlr parsing. 
+[19:02:38] [INFO   ] Tree Building: Step 2: Converting parse tree to spar-tree 
+[19:02:38] [INFO   ] Tree Building: Step 3: Simplifying spar-tree 
+[19:02:38] [INFO   ] Tree Building: Finished in TimeSpan{startMillis=1659978153160, endMillis=1659978158756, formatted=5 seconds} 
+[19:02:38] [INFO   ] The reduction process started at 19:02:38 2022/08/08 
+[19:02:38] [INFO   ] Cache setting: query-caching=enabled, edit-caching=enabled, query-cache=compact_query_cache 
+Exception in thread "main" java.lang.IllegalStateException: The initial sanity check failed. 
+
+***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+*
+* The script exit code is 1 
+* The files have been saved, and you can check them at:
+*     /tmp/perses_failure_5705157725720045715
+*
+***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+
+============= stderr =============
+Note: Test.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+rm: cannot remove 'output.txt': No such file or directory
+
+
+============= stdout =============
+failure
+
+
+	at org.perses.reduction.AbstractReductionDriver.sanityCheck(AbstractReductionDriver.kt:70)
+	at org.perses.reduction.AbstractProgramReductionDriver.reduce(AbstractProgramReductionDriver.kt:159)
+	at org.perses.AbstractMain.internalRun(AbstractMain.kt:33)
+	at org.perses.util.cmd.AbstractMain.run(AbstractMain.kt:53)
+	at org.perses.Main.main(Main.java:89)
+
+[23:35:39] [INFO   ] Tree Building: Start building spar-tree from input file SourceFile{file=/root/DecompilerTester/testhome/eposide-1/487/reduced-487/Test.java, lang=LanguageJava{name=java, extensions=[java], defaultCodeFormatControl=SINGLE_TOKEN_PER_LINE}} 
+[23:35:39] [INFO   ] Tree Building: Step 1: Antlr parsing. 
+[23:35:44] [INFO   ] Tree Building: Step 2: Converting parse tree to spar-tree 
+[23:35:44] [INFO   ] Tree Building: Step 3: Simplifying spar-tree 
+[23:35:44] [INFO   ] Tree Building: Finished in TimeSpan{startMillis=1659994539054, endMillis=1659994544760, formatted=5 seconds} 
+[23:35:44] [INFO   ] The reduction process started at 23:35:44 2022/08/08 
+[23:35:44] [INFO   ] Cache setting: query-caching=enabled, edit-caching=enabled, query-cache=compact_query_cache 
+Exception in thread "main" java.lang.IllegalStateException: The initial sanity check failed. 
+
+***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+*
+* The script exit code is 1 
+* The files have been saved, and you can check them at:
+*     /tmp/perses_failure_9562852475429555728
+*
+***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+
+============= stderr =============
+Note: Test.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+rm: cannot remove 'output.txt': No such file or directory
+
+
+============= stdout =============
+failure
+
+
+	at org.perses.reduction.AbstractReductionDriver.sanityCheck(AbstractReductionDriver.kt:70)
+	at org.perses.reduction.AbstractProgramReductionDriver.reduce(AbstractProgramReductionDriver.kt:159)
+	at org.perses.AbstractMain.internalRun(AbstractMain.kt:33)
+	at org.perses.util.cmd.AbstractMain.run(AbstractMain.kt:53)
+	at org.perses.Main.main(Main.java:89)
+

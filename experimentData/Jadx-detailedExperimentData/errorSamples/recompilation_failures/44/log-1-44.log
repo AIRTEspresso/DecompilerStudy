@@ -1,0 +1,9 @@
+
+Test.java:133: error: integer number too large
+        instanceCount = (-6202473916003642764) >>> i2;
+                          ^
+1 error
+
+Note: FuzzerUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+

@@ -1,0 +1,3 @@
+iFld = -4982
+instanceCount = -4982
+iArr2 = -156365645

@@ -1,0 +1,10 @@
+Test.java:15: error: case, default, or '}' expected
+            ** case 65:
+            ^
+Test.java:15: error: case, default, or '}' expected
+            ** case 65:
+             ^
+Test.java:19: error: illegal start of statement
+            case 66: {
+            ^
+3 errors

@@ -1,0 +1,7 @@
+Test.java:7: error: incompatible types: possible lossy conversion from int to byte
+        byte b = 208;
+                 ^
+Test.java:10: error: incompatible types: possible lossy conversion from int to byte
+            b = b != 89 ? i : i + 99;
+                        ^
+2 errors

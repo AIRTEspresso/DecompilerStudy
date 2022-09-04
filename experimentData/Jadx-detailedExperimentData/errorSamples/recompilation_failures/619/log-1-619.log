@@ -1,0 +1,26 @@
+
+Test.java:43: error: incompatible types: possible lossy conversion from float to long
+                instanceCount = ((float) j) - 200.0f;
+                                            ^
+Test.java:205: error: incompatible types: int cannot be converted to boolean
+            boolean z = i8;
+                        ^
+Test.java:247: error: incompatible types: boolean cannot be converted to int
+            i8 = z;
+                 ^
+Test.java:257: error: incompatible types: possible lossy conversion from float to long
+                long j3 = fFld1;
+                          ^
+Test.java:272: error: incomparable types: int and boolean
+                int i18 = i8 == true ? 1 : 0;
+                             ^
+Test.java:273: error: incomparable types: int and boolean
+                int i19 = i8 == true ? 1 : 0;
+                             ^
+Test.java:274: error: incomparable types: int and boolean
+                int i20 = i8 == true ? 1 : 0;
+                             ^
+Note: FuzzerUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+7 errors
+

@@ -1,0 +1,9 @@
+i d i13 = -1811895805,4593624566308999153,248
+i14 i15 lArr = 5,-12281,3804306598800
+dArr = -4548110340390851693
+Test.instanceCount byFld fFld = 15367929856,-18,-1027953787
+Test.iArrFld bArrFld = 220809,-400
+iMeth_check_sum: -56876
+vMeth2_check_sum: 38184
+vMeth1_check_sum: 23137966
+vMeth_check_sum: -1027966881

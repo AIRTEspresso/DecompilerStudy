@@ -1,0 +1,4 @@
+Test.java:14: error: variable bl might not have been initialized
+            if (!bl) continue;
+                 ^
+1 error

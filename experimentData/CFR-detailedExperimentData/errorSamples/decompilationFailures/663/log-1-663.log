@@ -1,0 +1,33 @@
+
+Test.java:182: error: illegal start of expression
+                                    if (!var14_13) ** GOTO lbl52
+                                                   ^
+Test.java:182: error: illegal start of expression
+                                    if (!var14_13) ** GOTO lbl52
+                                                    ^
+Test.java:182: error: ';' expected
+                                    if (!var14_13) ** GOTO lbl52
+                                                          ^
+Test.java:182: error: not a statement
+                                    if (!var14_13) ** GOTO lbl52
+                                                           ^
+Test.java:182: error: ';' expected
+                                    if (!var14_13) ** GOTO lbl52
+                                                                ^
+Test.java:189: error: illegal start of expression
+                                    ** GOTO lbl56
+                                    ^
+Test.java:189: error: illegal start of expression
+                                    ** GOTO lbl56
+                                     ^
+Test.java:189: error: ';' expected
+                                    ** GOTO lbl56
+                                           ^
+Test.java:190: error: ';' expected
+lbl52:
+     ^
+Test.java:202: error: illegal start of statement
+                                case 127: {
+                                ^
+10 errors
+

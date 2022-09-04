@@ -1,0 +1,51 @@
+[04:52:28] [INFO   ] Tree Building: Start building spar-tree from input file SourceFile{file=/root/DecompilerTester/testhome/eposide-1/652/reduced-652/Test.java, lang=LanguageJava{name=java, extensions=[java], defaultCodeFormatControl=SINGLE_TOKEN_PER_LINE}} 
+[04:52:28] [INFO   ] Tree Building: Step 1: Antlr parsing. 
+[04:52:33] [INFO   ] Tree Building: Step 2: Converting parse tree to spar-tree 
+[04:52:34] [INFO   ] Tree Building: Step 3: Simplifying spar-tree 
+[04:52:34] [INFO   ] Tree Building: Finished in TimeSpan{startMillis=1660013548479, endMillis=1660013554058, formatted=5 seconds} 
+[04:52:34] [INFO   ] The reduction process started at 04:52:34 2022/08/09 
+[04:52:34] [INFO   ] Cache setting: query-caching=enabled, edit-caching=enabled, query-cache=compact_query_cache 
+Exception in thread "main" java.lang.IllegalStateException: The initial sanity check failed. 
+
+***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+*
+* The script exit code is 2 
+* The files have been saved, and you can check them at:
+*     /tmp/perses_failure_675217276417786567
+*
+***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+
+============= stderr =============
+rm: cannot remove 'output.txt': No such file or directory
+Warning in Test.jar:Test.class:
+Type `java.lang.Math` was not found, it is required for default or static interface methods desugaring of `long Test.lMeth(int)`
+Warning in Test.jar:Test.class:
+Type `java.lang.reflect.Array` was not found, it is required for default or static interface methods desugaring of `byte[][] Test.byte2array(int, byte)`
+Warning in Test.jar:Test.class:
+Type `java.lang.Thread` was not found, it is required for default or static interface methods desugaring of `void Test.joinThreads()`
+Warning in Test.jar:Test.class:
+Type `java.lang.Float` was not found, it is required for default or static interface methods desugaring of `void Test.mainTest(java.lang.String[])`
+Warning in Test.jar:Test.class:
+Type `java.lang.Double` was not found, it is required for default or static interface methods desugaring of `void Test.mainTest(java.lang.String[])`
+Warning in Test.jar:Test$1.class:
+Type `java.lang.Runnable` was not found, it is required for default or static interface methods desugaring of `Test$1`
+rm: cannot remove '*.class': No such file or directory
+rm: cannot remove 'output.txt': No such file or directory
+script_for_javafuzzer.sh: line 36: warning: here-document at line 31 delimited by end-of-file (wanted `')
+script_for_javafuzzer.sh: line 37: syntax error: unexpected end of file
+
+
+============= stdout =============
+INFO  - loading ...
+INFO  - processing ...
+INFO  - progress: 0 of 1 (0%)
+
+INFO  - done
+
+
+	at org.perses.reduction.AbstractReductionDriver.sanityCheck(AbstractReductionDriver.kt:70)
+	at org.perses.reduction.AbstractProgramReductionDriver.reduce(AbstractProgramReductionDriver.kt:159)
+	at org.perses.AbstractMain.internalRun(AbstractMain.kt:33)
+	at org.perses.util.cmd.AbstractMain.run(AbstractMain.kt:53)
+	at org.perses.Main.main(Main.java:89)
+
