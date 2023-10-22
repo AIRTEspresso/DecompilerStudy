@@ -1,0 +1,13 @@
+
+Test.java:127: error: incomparable types: boolean and int
+            if (z == 0) {
+                  ^
+Test.java:153: error: bad operand types for binary operator '+'
+                        vMeth_check_sum += ((((((((i3 + z) + i4) + i9) + i5) + i14) + i13) + Float.floatToIntBits(f2)) + i12) - 201;
+                                                      ^
+  first type:  int
+  second type: boolean
+Note: FuzzerUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+2 errors
+

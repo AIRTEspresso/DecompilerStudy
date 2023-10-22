@@ -1,0 +1,63 @@
+
+Test.java:52: error: illegal start of expression
+                            if (!var11_9) ** GOTO lbl61
+                                          ^
+Test.java:52: error: illegal start of expression
+                            if (!var11_9) ** GOTO lbl61
+                                           ^
+Test.java:52: error: ';' expected
+                            if (!var11_9) ** GOTO lbl61
+                                                 ^
+Test.java:53: error: ']' expected
+                            var8_7[var6_5 - 1] = -8694;
+                                   ^
+Test.java:53: error: not a statement
+                            var8_7[var6_5 - 1] = -8694;
+                                          ^
+Test.java:53: error: ';' expected
+                            var8_7[var6_5 - 1] = -8694;
+                                             ^
+Test.java:65: error: illegal start of expression
+                                ** case 51:
+                                ^
+Test.java:65: error: illegal start of expression
+                                ** case 51:
+                                 ^
+Test.java:65: error: illegal start of expression
+                                ** case 51:
+                                   ^
+Test.java:69: error: illegal start of statement
+                                case 52: {
+                                ^
+Test.java:73: error: illegal start of expression
+                                    ** GOTO lbl24
+                                    ^
+Test.java:73: error: illegal start of expression
+                                    ** GOTO lbl24
+                                     ^
+Test.java:73: error: ';' expected
+                                    ** GOTO lbl24
+                                           ^
+Test.java:73: error: not a statement
+                                    ** GOTO lbl24
+                                            ^
+Test.java:73: error: ';' expected
+                                    ** GOTO lbl24
+                                                 ^
+Test.java:351: error: illegal start of expression
+                        ** case 94:
+                        ^
+Test.java:351: error: illegal start of expression
+                        ** case 94:
+                         ^
+Test.java:351: error: illegal start of expression
+                        ** case 94:
+                           ^
+Test.java:355: error: illegal start of statement
+                        case 100: {
+                        ^
+19 errors
+
+Note: FuzzerUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+

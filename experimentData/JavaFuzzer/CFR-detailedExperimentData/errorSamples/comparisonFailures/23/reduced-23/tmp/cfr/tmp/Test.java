@@ -1,0 +1,668 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+import java.io.PrintStream;
+import java.util.Random;
+import java.util.concurrent.atomic.AtomicLong;
+
+public class Test {
+    public static final int N = 400;
+    public static long instanceCount = 3125503453L;
+    public static float fFld = 1.855f;
+    public int iFld = -250;
+    public boolean bFld = false;
+    public static byte byFld = (byte)-50;
+    public static long[] lArrFld = new long[400];
+    public static int[] iArrFld = new int[400];
+    public static long vMeth_check_sum;
+    public static long iMeth_check_sum;
+    public static long iMeth1_check_sum;
+    public static PrintStream out;
+    public static Random random;
+    public static long seed;
+    public static int UnknownZero;
+    public static AtomicLong runningThreads;
+
+    public static int iMeth1(long l) {
+        int n = 4357;
+        int n2 = -141;
+        int n3 = 8;
+        int n4 = -13635;
+        int n5 = 14184;
+        int[] nArray = new int[400];
+        float f = -127.506f;
+        Test.init(nArray, 14);
+        for (n = 13; n < 298; ++n) {
+            n2 = (int)l;
+            instanceCount = n2;
+            for (n3 = 6; 1 < n3; n3 -= 3) {
+                n4 = 50295;
+            }
+            instanceCount += (long)(n * n3 + n) - l;
+            try {
+                n2 = 209 % n3;
+                nArray[n + 1] = n3 % -151972265;
+                n2 = 194 / n;
+            }
+            catch (ArithmeticException arithmeticException) {
+                // empty catch block
+            }
+            n4 += n;
+            n5 = 1;
+            do {
+                switch ((n2 >>> 1) % 3 + 24) {
+                    case 24: {
+                        n2 = n4;
+                        n2 += n5 | n5;
+                        break;
+                    }
+                    case 25: {
+                        n4 += n5;
+                        break;
+                    }
+                    case 26: {
+                        f *= -12.0f;
+                    }
+                }
+            } while (++n5 < 6);
+        }
+        long l2 = l + (long)n + (long)n2 + (long)n3 + (long)n4 + (long)n5 + (long)Float.floatToIntBits(f) + Test.checkSum(nArray);
+        iMeth1_check_sum += l2;
+        return (int)l2;
+    }
+
+    public static int iMeth() {
+        int n = -7;
+        int n2 = 0;
+        int n3 = -13;
+        int n4 = 14;
+        int n5 = 76;
+        int n6 = -51569;
+        double d = -4.90408;
+        int n7 = -5;
+        boolean bl = false;
+        boolean[] blArray = new boolean[400];
+        Test.init(blArray, true);
+        n = (int)(((float)((long)n + 2739312917L) + fFld * fFld) * (float)Test.iMeth1(instanceCount));
+        for (n2 = 17; n2 < 320; ++n2) {
+            for (d = 5.0; d > 1.0; d -= 1.0) {
+                fFld = n2;
+                n4 &= 0x55F5B97A;
+                instanceCount = 4L;
+                fFld += (float)(d - (double)n7);
+                n = n2;
+                instanceCount = 115L;
+            }
+            for (n5 = 1; n5 < 5; ++n5) {
+                blArray[n2 + 1] = bl;
+            }
+        }
+        n7 = 119;
+        n4 = n6;
+        n3 = -397004895;
+        long l = (long)(n + n2 + n3) + Double.doubleToLongBits(d) + (long)n4 + (long)n7 + (long)n5 + (long)n6 + (long)(bl ? 1 : 0) + Test.checkSum(blArray);
+        iMeth_check_sum += l;
+        return (int)l;
+    }
+
+    public static void vMeth() {
+        int n = -10;
+        int n2 = 173;
+        int n3 = 1;
+        int n4 = 58;
+        int n5 = 5;
+        int n6 = -14;
+        boolean bl = false;
+        int n7 = -29;
+        for (n = 149; n > 7; n -= 2) {
+            int n8 = n;
+            iArrFld[n8] = iArrFld[n8] + (int)instanceCount;
+            n3 -= (n2 <<= Test.iMeth() + n3);
+            n2 = (int)((float)n2 + ((float)n * fFld + (float)n2 - (float)instanceCount));
+            Test.iArrFld[n - 1] = n;
+            for (n4 = 1; 22 > n4; ++n4) {
+                n2 -= n2;
+                n6 = 1;
+                while (++n6 < 2) {
+                    int n9 = n - 1;
+                    lArrFld[n9] = lArrFld[n9] - (long)n;
+                    instanceCount += (long)n3;
+                    if (n4 != 0) {
+                        vMeth_check_sum += (long)(n + n2 + n3 + n4 + n5 + n6 + (bl ? 1 : 0) + n7);
+                        return;
+                    }
+                    n7 = (byte)n6;
+                    n5 >>= -1597847310;
+                }
+            }
+        }
+        vMeth_check_sum += (long)(n + n2 + n3 + n4 + n5 + n6 + (bl ? 1 : 0) + n7);
+    }
+
+    public void mainTest(String[] stringArray) {
+        short s = 30977;
+        int n = -14;
+        int n2 = -44215;
+        int n3 = 0;
+        int n4 = -111;
+        int n5 = -11;
+        int n6 = 47;
+        int n7 = 61530;
+        double d = 116.12225;
+        float[] fArray = new float[400];
+        Test.init(fArray, -1.154f);
+        Test.vMeth();
+        Test.iArrFld[(this.iFld >>> 1) % 400] = s;
+        this.iFld *= s;
+        int n8 = (this.iFld >>> 1) % 400;
+        fArray[n8] = fArray[n8] * (float)instanceCount;
+        for (n = 379; n > 2; n -= 3) {
+            n2 = (int)((long)n2 + ((long)n * instanceCount + instanceCount - (long)n2));
+            switch ((n2 >>> 1) % 1 * 5 + 25) {
+                case 29: {
+                    n2 = -87;
+                    this.iFld += n | n;
+                    break;
+                }
+                default: {
+                    int n9 = n + 1;
+                    iArrFld[n9] = iArrFld[n9] + (int)fFld;
+                    this.iFld -= (int)instanceCount;
+                }
+            }
+            this.iFld = (int)((long)this.iFld + ((long)n * instanceCount + instanceCount - (long)n2));
+            s = (short)n;
+            instanceCount = (long)fFld;
+            fFld -= (float)this.iFld;
+        }
+        for (int n10 : iArrFld) {
+            n3 = 1;
+            while (++n3 < 63) {
+                if (this.bFld) {
+                    for (n4 = 1; n4 < 1; ++n4) {
+                    }
+                    int n11 = n3 + 1;
+                    iArrFld[n11] = iArrFld[n11] * n;
+                }
+                this.bFld = this.bFld;
+                this.iFld += 28758 + n3 * n3;
+                instanceCount += (long)n3;
+                byFld = (byte)(byFld + (byte)n2);
+                this.iFld += n3;
+                instanceCount = n;
+            }
+            for (n6 = 63; n6 > 2; --n6) {
+                d = -1013.0;
+                n2 -= this.iFld;
+            }
+        }
+        System.out.println("s i17 i18 = " + s + "," + n + "," + n2);
+        System.out.println("i20 i21 i22 = " + n3 + "," + n4 + "," + n5);
+        System.out.println("i23 i24 d1 = " + n6 + "," + n7 + "," + Double.doubleToLongBits(d));
+        System.out.println("fArr = " + Double.doubleToLongBits(Test.checkSum(fArray)));
+        System.out.println("Test.instanceCount Test.fFld iFld = " + instanceCount + "," + Float.floatToIntBits(fFld) + "," + this.iFld);
+        System.out.println("bFld Test.byFld Test.lArrFld = " + (this.bFld ? 1 : 0) + "," + byFld + "," + Test.checkSum(lArrFld));
+        System.out.println("Test.iArrFld = " + Test.checkSum(iArrFld));
+        System.out.println("iMeth1_check_sum: " + iMeth1_check_sum);
+        System.out.println("iMeth_check_sum: " + iMeth_check_sum);
+        System.out.println("vMeth_check_sum: " + vMeth_check_sum);
+    }
+
+    public static void main(String[] stringArray) {
+        try {
+            Test test = new Test();
+            test.mainTest(stringArray);
+        }
+        catch (Exception exception) {
+            System.out.println(exception.getClass().getCanonicalName());
+        }
+    }
+
+    public static int nextInt() {
+        return random.nextInt();
+    }
+
+    public static long nextLong() {
+        return random.nextLong();
+    }
+
+    public static float nextFloat() {
+        return random.nextFloat();
+    }
+
+    public static double nextDouble() {
+        return random.nextDouble();
+    }
+
+    public static boolean nextBoolean() {
+        return random.nextBoolean();
+    }
+
+    public static byte nextByte() {
+        return (byte)random.nextInt();
+    }
+
+    public static short nextShort() {
+        return (short)random.nextInt();
+    }
+
+    public static char nextChar() {
+        return (char)random.nextInt();
+    }
+
+    public static void init(boolean[] blArray, boolean bl) {
+        for (int i = 0; i < blArray.length; ++i) {
+            blArray[i] = i % 2 == 0 ? bl : i % 3 == 0;
+        }
+    }
+
+    public static void init(boolean[][] blArray, boolean bl) {
+        for (int i = 0; i < blArray.length; ++i) {
+            Test.init(blArray[i], bl);
+        }
+    }
+
+    public static void init(long[] lArray, long l) {
+        for (int i = 0; i < lArray.length; ++i) {
+            lArray[i] = i % 2 == 0 ? l + (long)i : l - (long)i;
+        }
+    }
+
+    public static void init(long[][] lArray, long l) {
+        for (int i = 0; i < lArray.length; ++i) {
+            Test.init(lArray[i], l);
+        }
+    }
+
+    public static void init(int[] nArray, int n) {
+        for (int i = 0; i < nArray.length; ++i) {
+            nArray[i] = i % 2 == 0 ? n + i : n - i;
+        }
+    }
+
+    public static void init(int[][] nArray, int n) {
+        for (int i = 0; i < nArray.length; ++i) {
+            Test.init(nArray[i], n);
+        }
+    }
+
+    public static void init(short[] sArray, short s) {
+        for (int i = 0; i < sArray.length; ++i) {
+            sArray[i] = (short)(i % 2 == 0 ? s + i : s - i);
+        }
+    }
+
+    public static void init(short[][] sArray, short s) {
+        for (int i = 0; i < sArray.length; ++i) {
+            Test.init(sArray[i], s);
+        }
+    }
+
+    public static void init(char[] cArray, char c) {
+        for (int i = 0; i < cArray.length; ++i) {
+            cArray[i] = (char)(i % 2 == 0 ? c + i : c - i);
+        }
+    }
+
+    public static void init(char[][] cArray, char c) {
+        for (int i = 0; i < cArray.length; ++i) {
+            Test.init(cArray[i], c);
+        }
+    }
+
+    public static void init(byte[] byArray, byte by) {
+        for (int i = 0; i < byArray.length; ++i) {
+            byArray[i] = (byte)(i % 2 == 0 ? by + i : by - i);
+        }
+    }
+
+    public static void init(byte[][] byArray, byte by) {
+        for (int i = 0; i < byArray.length; ++i) {
+            Test.init(byArray[i], by);
+        }
+    }
+
+    public static void init(double[] dArray, double d) {
+        for (int i = 0; i < dArray.length; ++i) {
+            dArray[i] = i % 2 == 0 ? d + (double)i : d - (double)i;
+        }
+    }
+
+    public static void init(double[][] dArray, double d) {
+        for (int i = 0; i < dArray.length; ++i) {
+            Test.init(dArray[i], d);
+        }
+    }
+
+    public static void init(float[] fArray, float f) {
+        for (int i = 0; i < fArray.length; ++i) {
+            fArray[i] = i % 2 == 0 ? f + (float)i : f - (float)i;
+        }
+    }
+
+    public static void init(float[][] fArray, float f) {
+        for (int i = 0; i < fArray.length; ++i) {
+            Test.init(fArray[i], f);
+        }
+    }
+
+    public static void init(Object[][] objectArray, Object object) {
+        for (int i = 0; i < objectArray.length; ++i) {
+            Test.init(objectArray[i], object);
+        }
+    }
+
+    public static void init(Object[] objectArray, Object object) {
+        for (int i = 0; i < objectArray.length; ++i) {
+            try {
+                objectArray[i] = object.getClass().newInstance();
+                continue;
+            }
+            catch (Exception exception) {
+                objectArray[i] = object;
+            }
+        }
+    }
+
+    public static long checkSum(boolean[] blArray) {
+        long l = 0L;
+        for (int i = 0; i < blArray.length; ++i) {
+            l += (long)(blArray[i] ? i + 1 : 0);
+        }
+        return l;
+    }
+
+    public static long checkSum(boolean[][] blArray) {
+        long l = 0L;
+        for (int i = 0; i < blArray.length; ++i) {
+            l += Test.checkSum(blArray[i]);
+        }
+        return l;
+    }
+
+    public static long checkSum(long[] lArray) {
+        long l = 0L;
+        for (int i = 0; i < lArray.length; ++i) {
+            l += lArray[i] / (long)(i + 1) + lArray[i] % (long)(i + 1);
+        }
+        return l;
+    }
+
+    public static long checkSum(long[][] lArray) {
+        long l = 0L;
+        for (int i = 0; i < lArray.length; ++i) {
+            l += Test.checkSum(lArray[i]);
+        }
+        return l;
+    }
+
+    public static long checkSum(int[] nArray) {
+        long l = 0L;
+        for (int i = 0; i < nArray.length; ++i) {
+            l += (long)(nArray[i] / (i + 1) + nArray[i] % (i + 1));
+        }
+        return l;
+    }
+
+    public static long checkSum(int[][] nArray) {
+        long l = 0L;
+        for (int i = 0; i < nArray.length; ++i) {
+            l += Test.checkSum(nArray[i]);
+        }
+        return l;
+    }
+
+    public static long checkSum(short[] sArray) {
+        long l = 0L;
+        for (int i = 0; i < sArray.length; ++i) {
+            l += (long)((short)(sArray[i] / (i + 1) + sArray[i] % (i + 1)));
+        }
+        return l;
+    }
+
+    public static long checkSum(short[][] sArray) {
+        long l = 0L;
+        for (int i = 0; i < sArray.length; ++i) {
+            l += Test.checkSum(sArray[i]);
+        }
+        return l;
+    }
+
+    public static long checkSum(char[] cArray) {
+        long l = 0L;
+        for (int i = 0; i < cArray.length; ++i) {
+            l += (long)((char)(cArray[i] / (i + 1) + cArray[i] % (i + 1)));
+        }
+        return l;
+    }
+
+    public static long checkSum(char[][] cArray) {
+        long l = 0L;
+        for (int i = 0; i < cArray.length; ++i) {
+            l += Test.checkSum(cArray[i]);
+        }
+        return l;
+    }
+
+    public static long checkSum(byte[] byArray) {
+        long l = 0L;
+        for (int i = 0; i < byArray.length; ++i) {
+            l += (long)((byte)(byArray[i] / (i + 1) + byArray[i] % (i + 1)));
+        }
+        return l;
+    }
+
+    public static long checkSum(byte[][] byArray) {
+        long l = 0L;
+        for (int i = 0; i < byArray.length; ++i) {
+            l += Test.checkSum(byArray[i]);
+        }
+        return l;
+    }
+
+    public static double checkSum(double[] dArray) {
+        double d = 0.0;
+        for (int i = 0; i < dArray.length; ++i) {
+            d += dArray[i] / (double)(i + 1) + dArray[i] % (double)(i + 1);
+        }
+        return d;
+    }
+
+    public static double checkSum(double[][] dArray) {
+        double d = 0.0;
+        for (int i = 0; i < dArray.length; ++i) {
+            d += Test.checkSum(dArray[i]);
+        }
+        return d;
+    }
+
+    public static double checkSum(float[] fArray) {
+        double d = 0.0;
+        for (int i = 0; i < fArray.length; ++i) {
+            d += (double)(fArray[i] / (float)(i + 1) + fArray[i] % (float)(i + 1));
+        }
+        return d;
+    }
+
+    public static double checkSum(float[][] fArray) {
+        double d = 0.0;
+        for (int i = 0; i < fArray.length; ++i) {
+            d += Test.checkSum(fArray[i]);
+        }
+        return d;
+    }
+
+    public static long checkSum(Object[][] objectArray) {
+        long l = 0L;
+        for (int i = 0; i < objectArray.length; ++i) {
+            l += Test.checkSum(objectArray[i]);
+        }
+        return l;
+    }
+
+    public static long checkSum(Object[] objectArray) {
+        long l = 0L;
+        for (int i = 0; i < objectArray.length; ++i) {
+            l = (long)((double)l + (double)Test.checkSum(objectArray[i]) * Math.pow(2.0, i));
+        }
+        return l;
+    }
+
+    public static long checkSum(Object object) {
+        if (object == null) {
+            return 0L;
+        }
+        return object.getClass().getCanonicalName().length();
+    }
+
+    public static byte[] byte1array(int n, byte by) {
+        byte[] byArray = new byte[n];
+        Test.init(byArray, by);
+        return byArray;
+    }
+
+    public static byte[][] byte2array(int n, byte by) {
+        byte[][] byArray = new byte[n][n];
+        Test.init(byArray, by);
+        return byArray;
+    }
+
+    public static short[] short1array(int n, short s) {
+        short[] sArray = new short[n];
+        Test.init(sArray, s);
+        return sArray;
+    }
+
+    public static short[][] short2array(int n, short s) {
+        short[][] sArray = new short[n][n];
+        Test.init(sArray, s);
+        return sArray;
+    }
+
+    public static int[] int1array(int n, int n2) {
+        int[] nArray = new int[n];
+        Test.init(nArray, n2);
+        return nArray;
+    }
+
+    public static int[][] int2array(int n, int n2) {
+        int[][] nArray = new int[n][n];
+        Test.init(nArray, n2);
+        return nArray;
+    }
+
+    public static long[] long1array(int n, long l) {
+        long[] lArray = new long[n];
+        Test.init(lArray, l);
+        return lArray;
+    }
+
+    public static long[][] long2array(int n, long l) {
+        long[][] lArray = new long[n][n];
+        Test.init(lArray, l);
+        return lArray;
+    }
+
+    public static float[] float1array(int n, float f) {
+        float[] fArray = new float[n];
+        Test.init(fArray, f);
+        return fArray;
+    }
+
+    public static float[][] float2array(int n, float f) {
+        float[][] fArray = new float[n][n];
+        Test.init(fArray, f);
+        return fArray;
+    }
+
+    public static double[] double1array(int n, double d) {
+        double[] dArray = new double[n];
+        Test.init(dArray, d);
+        return dArray;
+    }
+
+    public static double[][] double2array(int n, double d) {
+        double[][] dArray = new double[n][n];
+        Test.init(dArray, d);
+        return dArray;
+    }
+
+    public static char[] char1array(int n, char c) {
+        char[] cArray = new char[n];
+        Test.init(cArray, c);
+        return cArray;
+    }
+
+    public static char[][] char2array(int n, char c) {
+        char[][] cArray = new char[n][n];
+        Test.init(cArray, c);
+        return cArray;
+    }
+
+    public static Object[] Object1array(int n, Object object) {
+        Object[] objectArray = new Object[n];
+        Test.init(objectArray, object);
+        return objectArray;
+    }
+
+    public static Object[][] Object2array(int n, Object object) {
+        Object[][] objectArray = new Object[n][n];
+        Test.init(objectArray, object);
+        return objectArray;
+    }
+
+    public static boolean[] boolean1array(int n, boolean bl) {
+        boolean[] blArray = new boolean[n];
+        Test.init(blArray, bl);
+        return blArray;
+    }
+
+    public static boolean[][] boolean2array(int n, boolean bl) {
+        boolean[][] blArray = new boolean[n][n];
+        Test.init(blArray, bl);
+        return blArray;
+    }
+
+    public static synchronized void runThread(Runnable runnable) {
+        final Thread thread = new Thread(runnable);
+        thread.start();
+        runningThreads.incrementAndGet();
+        Thread thread2 = new Thread(new Runnable(){
+
+            @Override
+            public void run() {
+                try {
+                    thread.join();
+                    runningThreads.decrementAndGet();
+                }
+                catch (InterruptedException interruptedException) {
+                    // empty catch block
+                }
+            }
+        });
+        thread2.start();
+    }
+
+    public static void joinThreads() {
+        while (runningThreads.get() > 0L) {
+            try {
+                Thread.sleep(1000L);
+            }
+            catch (InterruptedException interruptedException) {}
+        }
+    }
+
+    static {
+        Test.init(lArrFld, 3104454649035639001L);
+        Test.init(iArrFld, -180);
+        vMeth_check_sum = 0L;
+        iMeth_check_sum = 0L;
+        iMeth1_check_sum = 0L;
+        out = System.out;
+        random = new Random(1L);
+        seed = 1L;
+        UnknownZero = 0;
+        runningThreads = new AtomicLong(0L);
+    }
+}
+

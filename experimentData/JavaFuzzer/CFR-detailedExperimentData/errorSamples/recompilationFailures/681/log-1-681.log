@@ -1,0 +1,11 @@
+
+Test.java:65: error: variable bl2 might not have been initialized
+            if (!bl2) continue;
+                 ^
+Note: FuzzerUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 error
+
+Note: FuzzerUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+

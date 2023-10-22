@@ -1,0 +1,36 @@
+[02:12:36] [INFO   ] Tree Building: Start building spar-tree from input file SourceFile{file=/root/DecompilerTester/testhome/eposide-1/191/reduced-191/Test.java, lang=LanguageJava{name=java, extensions=[java], defaultCodeFormatControl=SINGLE_TOKEN_PER_LINE}} 
+[02:12:36] [INFO   ] Tree Building: Step 1: Antlr parsing. 
+[02:12:42] [INFO   ] Tree Building: Step 2: Converting parse tree to spar-tree 
+[02:12:42] [INFO   ] Tree Building: Step 3: Simplifying spar-tree 
+[02:12:42] [INFO   ] Tree Building: Finished in TimeSpan{startMillis=1650586356757, endMillis=1650586362193, formatted=5 seconds} 
+[02:12:42] [INFO   ] The reduction process started at 02:12:42 2022/04/22 
+[02:12:42] [INFO   ] Cache setting: query-caching=enabled, edit-caching=enabled, query-cache=compact_query_cache 
+Exception in thread "main" java.lang.IllegalStateException: The initial sanity check failed. 
+
+***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+*
+* The script exit code is 2 
+* The files have been saved, and you can check them at:
+*     /tmp/perses_failure_10915555603875448259
+*
+***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+
+============= stderr =============
+rm: cannot remove 'output.txt': No such file or directory
+Processing Test.jar (use silent to silence)
+Processing Test
+rm: cannot remove '*.class': No such file or directory
+rm: cannot remove 'output.txt': No such file or directory
+script_for_javafuzzer.sh: line 30: syntax error near unexpected token `fi'
+script_for_javafuzzer.sh: line 30: `fi'
+
+
+============= stdout =============
+<empty> 
+
+	at org.perses.reduction.AbstractReductionDriver.sanityCheck(AbstractReductionDriver.kt:70)
+	at org.perses.reduction.AbstractProgramReductionDriver.reduce(AbstractProgramReductionDriver.kt:159)
+	at org.perses.AbstractMain.internalRun(AbstractMain.kt:33)
+	at org.perses.util.cmd.AbstractMain.run(AbstractMain.kt:53)
+	at org.perses.Main.main(Main.java:89)
+

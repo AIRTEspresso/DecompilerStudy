@@ -1,0 +1,11 @@
+Test.java:87: error: incompatible types: possible lossy conversion from float to int
+            int var10001 = fFld--;
+                               ^
+Test.java:752: error: cannot find symbol
+      Thread var2 = new Thread(new Test$1(var1));
+                                   ^
+  symbol:   class Test$1
+  location: class Test
+Note: Test.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+2 errors

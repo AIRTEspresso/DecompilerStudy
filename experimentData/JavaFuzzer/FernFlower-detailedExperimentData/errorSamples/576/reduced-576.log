@@ -1,0 +1,158 @@
+[11:06:46] [INFO   ] Tree Building: Start building spar-tree from input file SourceFile{file=/root/DecompilerTester/testhome/eposide-1/576/reduced-576/Test.java, lang=LanguageJava{name=java, extensions=[java], defaultCodeFormatControl=SINGLE_TOKEN_PER_LINE}} 
+[11:06:46] [INFO   ] Tree Building: Step 1: Antlr parsing. 
+[11:06:51] [INFO   ] Tree Building: Step 2: Converting parse tree to spar-tree 
+[11:06:51] [INFO   ] Tree Building: Step 3: Simplifying spar-tree 
+[11:06:51] [INFO   ] Tree Building: Finished in TimeSpan{startMillis=1649322406618, endMillis=1649322411485, formatted=4 seconds} 
+[11:06:51] [WARNING] The scriptExecutionMonitorIntervalMillis is 15000 
+[11:06:51] [INFO   ] The reduction process started at 11:06:51 2022/04/07 
+[11:06:51] [INFO   ] Cache setting: query-caching=enabled, edit-caching=enabled, query-cache=compact_query_cache 
+Exception in thread "main" java.lang.IllegalStateException: The initial sanity check failed. 
+
+***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+*
+* The script exit code is 1 
+* The files have been saved, and you can check them at:
+*     /tmp/perses_failure_4658984426921041606
+*
+***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+
+============= stderr =============
+Note: Test.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+rm: cannot remove '*.class': No such file or directory
+rm: cannot remove 'output.txt': No such file or directory
+Test.java:44: error: cannot find symbol
+} catch (UserDefinedExceptionTest var15) {
+^
+symbol:   class UserDefinedExceptionTest
+location: class Test
+Note: Test.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 error
+Error: Could not find or load main class Test
+Caused by: java.lang.ClassNotFoundException: Test
+
+
+============= stdout =============
+INFO:  Decompiling class Test
+INFO:  ... done
+INFO:  Decompiling class UserDefinedExceptionTest
+INFO:  ... done
+Archive:  Test.jar
+inflating: META-INF/MANIFEST.MF    
+inflating: Test.java               
+inflating: UserDefinedExceptionTest.java  
+failure
+
+
+	at org.perses.reduction.AbstractReductionDriver.sanityCheck(AbstractReductionDriver.kt:92)
+	at org.perses.reduction.AbstractProgramReductionDriver.reduce(AbstractProgramReductionDriver.kt:159)
+	at org.perses.AbstractMain.internalRun(AbstractMain.kt:33)
+	at org.perses.util.cmd.AbstractMain.run(AbstractMain.kt:53)
+	at org.perses.Main.main(Main.java:89)
+
+[23:29:23] [INFO   ] Tree Building: Start building spar-tree from input file SourceFile{file=/root/DecompilerTester/testhome/eposide-1/576/reduced-576/Test.java, lang=LanguageJava{name=java, extensions=[java], defaultCodeFormatControl=SINGLE_TOKEN_PER_LINE}} 
+[23:29:23] [INFO   ] Tree Building: Step 1: Antlr parsing. 
+[23:29:28] [INFO   ] Tree Building: Step 2: Converting parse tree to spar-tree 
+[23:29:28] [INFO   ] Tree Building: Step 3: Simplifying spar-tree 
+[23:29:28] [INFO   ] Tree Building: Finished in TimeSpan{startMillis=1649366963280, endMillis=1649366968682, formatted=5 seconds} 
+[23:29:28] [WARNING] The scriptExecutionMonitorIntervalMillis is 15000 
+[23:29:28] [INFO   ] The reduction process started at 23:29:28 2022/04/07 
+[23:29:28] [INFO   ] Cache setting: query-caching=enabled, edit-caching=enabled, query-cache=compact_query_cache 
+Exception in thread "main" java.lang.IllegalStateException: The initial sanity check failed. 
+
+***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+*
+* The script exit code is 1 
+* The files have been saved, and you can check them at:
+*     /tmp/perses_failure_1753739768556514535
+*
+***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+
+============= stderr =============
+Note: Test.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+rm: cannot remove '*.class': No such file or directory
+rm: cannot remove 'output.txt': No such file or directory
+Test.java:44: error: cannot find symbol
+} catch (UserDefinedExceptionTest var15) {
+^
+symbol:   class UserDefinedExceptionTest
+location: class Test
+Note: Test.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 error
+Error: Could not find or load main class Test
+Caused by: java.lang.ClassNotFoundException: Test
+
+
+============= stdout =============
+INFO:  Decompiling class Test
+INFO:  ... done
+INFO:  Decompiling class UserDefinedExceptionTest
+INFO:  ... done
+Archive:  Test.jar
+inflating: META-INF/MANIFEST.MF    
+inflating: Test.java               
+inflating: UserDefinedExceptionTest.java  
+failure
+
+
+	at org.perses.reduction.AbstractReductionDriver.sanityCheck(AbstractReductionDriver.kt:92)
+	at org.perses.reduction.AbstractProgramReductionDriver.reduce(AbstractProgramReductionDriver.kt:159)
+	at org.perses.AbstractMain.internalRun(AbstractMain.kt:33)
+	at org.perses.util.cmd.AbstractMain.run(AbstractMain.kt:53)
+	at org.perses.Main.main(Main.java:89)
+
+[01:17:22] [INFO   ] Tree Building: Start building spar-tree from input file SourceFile{file=/root/DecompilerTester/testhome/eposide-1/576/reduced-576/Test.java, lang=LanguageJava{name=java, extensions=[java], defaultCodeFormatControl=SINGLE_TOKEN_PER_LINE}} 
+[01:17:22] [INFO   ] Tree Building: Step 1: Antlr parsing. 
+[01:17:27] [INFO   ] Tree Building: Step 2: Converting parse tree to spar-tree 
+[01:17:27] [INFO   ] Tree Building: Step 3: Simplifying spar-tree 
+[01:17:27] [INFO   ] Tree Building: Finished in TimeSpan{startMillis=1649373442267, endMillis=1649373447522, formatted=5 seconds} 
+[01:17:27] [INFO   ] The reduction process started at 01:17:27 2022/04/08 
+[01:17:27] [INFO   ] Cache setting: query-caching=enabled, edit-caching=enabled, query-cache=compact_query_cache 
+Exception in thread "main" java.lang.IllegalStateException: The initial sanity check failed. 
+
+***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+*
+* The script exit code is 1 
+* The files have been saved, and you can check them at:
+*     /tmp/perses_failure_2403477705292406924
+*
+***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+
+============= stderr =============
+Note: Test.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+rm: cannot remove '*.class': No such file or directory
+rm: cannot remove 'output.txt': No such file or directory
+Test.java:44: error: cannot find symbol
+} catch (UserDefinedExceptionTest var15) {
+^
+symbol:   class UserDefinedExceptionTest
+location: class Test
+Note: Test.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 error
+Error: Could not find or load main class Test
+Caused by: java.lang.ClassNotFoundException: Test
+
+
+============= stdout =============
+INFO:  Decompiling class Test
+INFO:  ... done
+INFO:  Decompiling class UserDefinedExceptionTest
+INFO:  ... done
+Archive:  Test.jar
+inflating: META-INF/MANIFEST.MF    
+inflating: Test.java               
+inflating: UserDefinedExceptionTest.java  
+failure
+
+
+	at org.perses.reduction.AbstractReductionDriver.sanityCheck(AbstractReductionDriver.kt:70)
+	at org.perses.reduction.AbstractProgramReductionDriver.reduce(AbstractProgramReductionDriver.kt:159)
+	at org.perses.AbstractMain.internalRun(AbstractMain.kt:33)
+	at org.perses.util.cmd.AbstractMain.run(AbstractMain.kt:53)
+	at org.perses.Main.main(Main.java:89)
+

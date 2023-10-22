@@ -1,0 +1,16 @@
+
+Test.java:31: error: cannot find symbol
+        FuzzerUtils.init((Object[][])nArray2, (Object)-12);
+                                               ^
+  symbol:   variable Object
+  location: class Test
+Test.java:31: error: illegal parenthesized expression
+        FuzzerUtils.init((Object[][])nArray2, (Object)-12);
+                                              ^
+Note: FuzzerUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+2 errors
+
+Note: FuzzerUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+

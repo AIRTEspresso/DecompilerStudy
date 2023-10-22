@@ -1,0 +1,8 @@
+
+Test.java:175: error: incompatible types: possible lossy conversion from int to byte
+                        byArray[(int)d] = n4;
+                                          ^
+Note: FuzzerUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 error
+

@@ -1,0 +1,4 @@
+Test.java:12: error: variable i3 might not have been initialized
+        this.vMeth_check_sum += i + i3;
+                                    ^
+1 error

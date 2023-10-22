@@ -1,0 +1,4 @@
+Test.java:8: error: incompatible types: possible lossy conversion from float to long
+        jArr[4] = ((float) jArr[4]) + 0.275f;
+                                    ^
+1 error

@@ -1,0 +1,10 @@
+s i17 i18 = 4,1,-364050272
+i20 i21 i22 = 63,-111,-11
+i23 i24 d1 = 2,61530,-4571250378804297728
+fArr = 4675647841779023872
+Test.instanceCount Test.fFld iFld = 1,1333788672,735025600
+bFld Test.byFld Test.lArrFld = 0,110,1949304699900677037
+Test.iArrFld = 390614731
+iMeth1_check_sum: 2534679678
+iMeth_check_sum: -4931441620163942966
+vMeth_check_sum: -22136

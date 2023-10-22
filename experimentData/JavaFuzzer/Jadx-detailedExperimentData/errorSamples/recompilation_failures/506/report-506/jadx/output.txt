@@ -1,0 +1,4 @@
+Test.java:19: error: unreachable statement
+            iArr[i3] = iArr[i3] << 64061;
+            ^
+1 error

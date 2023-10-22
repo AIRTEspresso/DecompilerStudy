@@ -1,0 +1,4 @@
+Test.java:35: error: incompatible types: possible lossy conversion from int to short
+                s = (int) (s + 82.33f);
+                    ^
+1 error
