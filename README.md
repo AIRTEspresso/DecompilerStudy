@@ -1,6 +1,8 @@
 # DecompilerStudy
 The first systematic study on the characteristics and causes of bugs in mature, widely-used Java decompilers.
 
+##Introduction
+
 This reposotiry provides the data of paper "Understanding and Finding Java Decompiler Bugs", which consists of four parts:
 ### (1) 333 bugs with their characteristics summarized from their issues and fixing commits:
 - the main data is stored in file **333 unique bugs.xlsx** of folder **issueStudyData**, where each sheet is for each project;
@@ -13,9 +15,9 @@ This reposotiry provides the data of paper "Understanding and Finding Java Decom
 - Inside three folders, an zip file named as "allData.zip" contains all the detailed data;
 - Meanwhile, every typical case of each bug can be found in folder **errorSamples** of ***-detailedExperimentData**;
 
-### (3) a further analysis of these decompilation results from which 37 bugs are revealed:
+### (3) a further analysis of these decompilation results from which 62 bugs are revealed:
 - the main data is summarized in the folder **bugDetailedData**;
-- The further analyses of these bugs are given at first, and then the listing of the bugs, where: **ID** gives a unique ID of the bug that can be mapped with **Bug ID** of (2), **Failure Period** represents the failure period of the test, **#** represents on how many tests the bug occur among the 580 tests, **Description (Error Logs)** represents the error log or our description of the failure,, **Reported Issue** represents the issue where we report the bug to the developers, **State** represents the state of the issue.
+- The further analyses of these bugs are given at first, and then the listing of the bugs, where: **ID** gives a unique ID of the bug that can be mapped with **Bug ID** of (2), **Failure Period** represents the failure period of the test, **#** represents on how many tests the bug occur among the 1160 tests, **Description (Error Logs)** represents the error log or our description of the failure,, **Reported Issue** represents the issue where we report the bug to the developers, **State** represents the state of the issue.
 
 ### (4) the executable artifact of JD-Tester, a differential testing framework for Java decompilers:
 - JD-Tester can be found in the 'Releases';
